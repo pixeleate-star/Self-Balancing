@@ -283,8 +283,11 @@ The controller continuously repeats this process at a high frequency, allowing t
 ## Final Result
 
 The whole idea is pretty simple but the control system makes it interesting — instead of manually controlling the robot, the robot continuously measures its own tilt and moves the wheels automatically to keep itself upright.
+
 full video---- https://drive.google.com/file/d/15Oyu7o3CPmcscNef3DqKq84Rv_wBlsnM/view?usp=sharing
+
 It is a compact introduction to **IMU sensing, sensor fusion, PID control, motor control and embedded robotics**, all combined into one project.
+
 working video: https://youtube.com/shorts/BoeQEbhFIXY
 
 mine bot------
