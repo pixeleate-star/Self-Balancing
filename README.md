@@ -43,7 +43,7 @@ The ESP32 handles the sensor readings and PID calculations, while the TB6612FNG 
 ## Circuit Diagram
 
 I have added the complete circuit diagram below. You can use it as a reference while wiring your own self-balancing robot.
-<img width="831" height="588" alt="image" src="https://github.com/user-attachments/assets/0f1df4be-26db-4fbf-90eb-2d9fea655ba1" />
+<img width="1662" height="1176" alt="image" src="https://github.com/user-attachments/assets/c5574bd1-f76d-46d0-b022-4110e69ebc32" />
 
 I know it looks a mesh so here's a link to circuit you can check it out https://app.cirkitdesigner.com/project/33cf55be-d292-4ee9-8185-b1da4f74aae1
 
@@ -242,9 +242,10 @@ float rightTrim = 1.00;
 
 ## CAD Models
 
-<img width="1512" height="982" alt="Screenshot 2026-08-19 at 2 59 37 PM" src="https://github.com/user-attachments/assets/770ff7f6-3c02-443c-8a14-f14599703825" />
-<img width="1512" height="982" alt="Screenshot 2026-08-19 at 2 46 24 PM" src="https://github.com/user-attachments/assets/dc885c60-9d5c-4b89-baad-d024ed6d22bd" />
-<img width="1512" height="982" alt="Screenshot 2026-08-19 at 2 46 16 PM" src="https://github.com/user-attachments/assets/646266d5-d056-461f-9e50-9f2551aaee2d" />
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/ac1df77d-87ad-4e0b-b315-a1c4ca1dff9a" />
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/cc7d00a6-cc0a-438c-b90e-db2d0fbf254b" />
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/248175d8-4802-4ffe-8a9f-d9e4189811c3" />
+
 
 
 ## Working Principle
@@ -282,8 +283,9 @@ The controller continuously repeats this process at a high frequency, allowing t
 ## Final Result
 
 The whole idea is pretty simple but the control system makes it interesting — instead of manually controlling the robot, the robot continuously measures its own tilt and moves the wheels automatically to keep itself upright.
-
+full video---- https://drive.google.com/file/d/15Oyu7o3CPmcscNef3DqKq84Rv_wBlsnM/view?usp=sharing
 It is a compact introduction to **IMU sensing, sensor fusion, PID control, motor control and embedded robotics**, all combined into one project.
+
 mine bot------
-<img width="542" height="608" alt="image" src="https://github.com/user-attachments/assets/799f59ae-01af-49ed-9b6a-a7ae2491cace" />
+<img width="542" height="608" alt="image" src="https://github.com/user-attachments/assets/4bcdfd31-084c-463d-818d-e27793bdb4cc" />
 
